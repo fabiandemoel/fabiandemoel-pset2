@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "WordsSegue" {
             let wordsViewController = segue.destination as! WordsViewController
+            wordsViewController.name = ""
         }
     }
     

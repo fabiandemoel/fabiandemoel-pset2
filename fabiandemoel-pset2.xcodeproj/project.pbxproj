@@ -79,13 +79,13 @@
 				A777147821A5837C001EDC47 /* madlibs.png */,
 				A777145921A561C1001EDC47 /* AppDelegate.swift */,
 				A777145B21A561C1001EDC47 /* ViewController.swift */,
+				A777146521A561C1001EDC47 /* Info.plist */,
 				A777145D21A561C1001EDC47 /* Main.storyboard */,
 				A777146B21A56A00001EDC47 /* WordsViewController.swift */,
 				A777146D21A56A11001EDC47 /* StoryViewController.swift */,
 				A777146021A561C1001EDC47 /* Assets.xcassets */,
 				A78F21DD21AC474E00C0C100 /* madlib0_simple copy.txt */,
 				A777146221A561C1001EDC47 /* LaunchScreen.storyboard */,
-				A777146521A561C1001EDC47 /* Info.plist */,
 			);
 			path = "fabiandemoel-pset2";
 			sourceTree = "<group>";

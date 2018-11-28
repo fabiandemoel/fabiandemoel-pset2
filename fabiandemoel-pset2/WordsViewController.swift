@@ -11,6 +11,7 @@ import UIKit
 class WordsViewController: UIViewController {
 
     var story: Story!
+    var name: String!
     
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var provideWord: UILabel!
