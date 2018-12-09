@@ -10,7 +10,7 @@ import UIKit
 
 class WordsViewController: UIViewController {
 
-    var story: Story!
+    var madlib: Story!
     var name: String!
     
     @IBOutlet weak var textField: UITextField!
@@ -21,7 +21,7 @@ class WordsViewController: UIViewController {
     
     @IBAction func addWord(_ sender: Any) {
         if let word = textField.text {
-            story.fillInPlaceholder(word: word)
+            madlib.fillInPlaceholder(word: word)
         }
         textField.text = ""
         updateUI()
@@ -29,29 +29,29 @@ class WordsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let storyPath = Bundle.main.path(forResource: "madlib0_simple", ofType: "txt", inDirectory: "madlibs_ios")
+        let storyPath = Bundle.main.path(forResource: name, ofType: "txt", inDirectory: "madlibs_ios")
         let text = try! String(contentsOfFile: storyPath!, encoding: .utf8)
-        story = Story(withText: text)
+        madlib = Story(withText: text)
         updateUI()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "StorySegue" {
+        if segue.identifier == "MadLib" {
             let storyViewController = segue.destination as! StoryViewController
-            storyViewController.userStory = story.normalText
+            storyViewController.userStory = madlib.normalText
         }
     }
     
     func updateUI() {
-        if story.isFilledIn {
+        if madlib.isFilledIn {
             fillInWordStack.isHidden = true
             goToStory.isHidden = false
             wordCount.text = "Story is finished!"
         } else {
             fillInWordStack.isHidden = false
             goToStory.isHidden = true
-            wordCount.text = "Still \(story.remainingPlaceholders) to go!"
-            textField.placeholder = story.nextPlaceholder
+            wordCount.text = "Still \(madlib.remainingPlaceholders) to go!"
+            textField.placeholder = madlib.nextPlaceholder
         }
     }
     

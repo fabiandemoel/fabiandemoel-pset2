@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "fabiandemoel-pset2/WordsViewController.swift"
-            timestampString = "565022272.898411"
+            timestampString = "566079461.578685"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "64"
@@ -22,11 +22,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "fabiandemoel-pset2/StoryViewController.swift"
-            timestampString = "565022272.8988611"
+            timestampString = "566079461.578756"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
@@ -35,14 +35,14 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "fabiandemoel_pset2.StoryViewController.userStory.getter : Swift.Optional&lt;Swift.String&gt;"
                   moduleName = "fabiandemoel-pset2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/fabiandemoel/Documents/UvA/Programmeren%20Minor/App%20Studio/Projecten/fabiandemoel-pset2/fabiandemoel-pset2/StoryViewController.swift"
-                  timestampString = "565022158.9482239"
+                  timestampString = "566078786.610146"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -50,14 +50,14 @@
                   offsetFromSymbolStart = "119">
                </Location>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "fabiandemoel_pset2.StoryViewController.userStory.setter : Swift.Optional&lt;Swift.String&gt;"
                   moduleName = "fabiandemoel-pset2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/fabiandemoel/Documents/UvA/Programmeren%20Minor/App%20Studio/Projecten/fabiandemoel-pset2/fabiandemoel-pset2/StoryViewController.swift"
-                  timestampString = "565022158.9511141"
+                  timestampString = "566078786.61352"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -65,14 +65,14 @@
                   offsetFromSymbolStart = "140">
                </Location>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "fabiandemoel_pset2.StoryViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; fabiandemoel_pset2.StoryViewController"
                   moduleName = "fabiandemoel-pset2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/fabiandemoel/Documents/UvA/Programmeren%20Minor/App%20Studio/Projecten/fabiandemoel-pset2/fabiandemoel-pset2/StoryViewController.swift"
-                  timestampString = "565022158.954226"
+                  timestampString = "566078786.616961"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -80,14 +80,14 @@
                   offsetFromSymbolStart = "171">
                </Location>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "fabiandemoel_pset2.StoryViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;fabiandemoel_pset2.StoryViewController&gt;"
                   moduleName = "fabiandemoel-pset2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/fabiandemoel/Documents/UvA/Programmeren%20Minor/App%20Studio/Projecten/fabiandemoel-pset2/fabiandemoel-pset2/StoryViewController.swift"
-                  timestampString = "565022158.956681"
+                  timestampString = "566078786.6206549"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -104,7 +104,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "fabiandemoel-pset2/WordsViewController.swift"
-            timestampString = "565022272.898923"
+            timestampString = "566079461.578817"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "40"

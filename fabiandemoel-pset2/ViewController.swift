@@ -10,23 +10,37 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var storyName: String!
+    
     @IBOutlet weak var storySelect: UISegmentedControl!
+    @IBAction func storySelect(_ sender: UISegmentedControl) {
+        switch(storySelect.selectedSegmentIndex) {
+        case 0:
+            storyName = "madlib1_tarzan"
+        case 1:
+            storyName = "madlib2_university"
+        case 2:
+            storyName = "madlib3_clothes"
+        case 3:
+            storyName = "madlib4_dance"
+        default:
+            storyName = "madlib0_simple"
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        storyName = "madlib1_tarzan"
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "WordsSegue" {
             let wordsViewController = segue.destination as! WordsViewController
-            wordsViewController.name = ""
+            wordsViewController.name = storyName
         }
     }
     
     @IBAction func unwindToStart(unwindSegue: UIStoryboardSegue) {
         
     }
-
-
 }
 
